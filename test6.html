@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #f2f2f2, #fff);
+            text-align: center;
+            animation: bgFade 2s infinite alternate;
+        }
+        
+        @keyframes bgFade {
+            from {background: linear-gradient(to bottom, #f2f2f2, #fff);}
+            to {background: linear-gradient(to bottom, #fff, #f2f2f2);}
+        }
+        
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: slideIn 1s;
+        }
+        
+        @keyframes slideIn {
+            from {transform: translateY(-50px); opacity: 0;}
+            to {transform: translateY(0); opacity: 1;}
+        }
+        
+        .birthday-message {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% {transform: scale(1);}
+            50% {transform: scale(1.05);}
+            100% {transform: scale(1);}
+        }
+        
+        .wishes {
+            font-size: 24px;
+            color: #666;
+        }
+        
+        .signature {
+            font-size: 18px;
+            color: #999;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="birthday-message">🎉 HAPPY BIRTHDAY PRAVEEN KUMAR! 🎉</div>
+        <div class="wishes">Wishing you a day filled with love, laughter, and all your favorite things!✨</div>
+        <div class="signature">With best wishes,<br>Madhu</div>
+    </div>
+</body>
+</html>
